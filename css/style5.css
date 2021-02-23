@@ -1409,3 +1409,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*# sourceMappingURL=style3.css.map */
+
+.navbar {
+  min-height: 70px;
+}
