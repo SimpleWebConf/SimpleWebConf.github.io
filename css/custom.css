@@ -1,0 +1,9 @@
+.small-footer-text p {
+    font-size: .5em;
+}
+.btn.btn-primary.big-red-button {
+    background: #f44336;
+}
+#fh5co-intro {
+    padding-bottom: 0px;
+}
