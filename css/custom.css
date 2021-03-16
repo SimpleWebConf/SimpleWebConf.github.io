@@ -3,6 +3,8 @@
 }
 .btn.btn-primary.big-red-button {
     background: #f44336;
+    padding: 1em 2em;
+    font-size: 1.2em;
 }
 #fh5co-intro {
     padding-bottom: 0px;
