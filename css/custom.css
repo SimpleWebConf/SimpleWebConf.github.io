@@ -26,3 +26,9 @@
     max-width: 70%;
     padding-left: 12px;
 }
+.navbar-fixed-top .navbar-2nd-logo p {
+    color: #000;
+}
+.navbar-fixed-top .navbar-2nd-logo img {
+    filter: invert(100%);
+}
