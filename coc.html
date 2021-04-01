@@ -75,27 +75,32 @@
 
 	</head>
 	<body>
-	<header role="banner" id="fh5co-header">
+		<header role="banner" id="fh5co-header">
 			<div class="container">
-				<!-- <div class="row"> -->
-			    <nav class="navbar navbar-default">
-		        <div class="navbar-header">
+				<div class="row navbar navbar-default">
+		        <div class="col-md-3 col-xs-12">
 		        	<!-- Mobile Toggle Menu Button -->
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
 		         <a class="navbar-brand" href="index.html"><img src="images/logo-white.png" alt="Image">SimpleWebConf</a> 
 		        </div>
-		        <div id="navbar" class="navbar-collapse collapse">
-		          <ul class="nav navbar-nav navbar-right">
+		        <div id="navbar" class="navbar-collapse collapse col-md-6 col-xs-12">
+				  <ul class="nav navbar-nav navbar-right" 
+				  		style="padding-top: .5em;">
 
-		            <li><a href="index.html" class="external"><span>Mission</span></a></li>
-		            <li><a href="index.html" class="external"><span>About</span></a></li>
-					<li><a href="index.html" class="external"><span>Submit CFP</span></a></li>
-					<li><a href="index.html" class="external"><span>Tickets </span></a></li>
-					<li><a href="https://twitter.com/simplewebconf" target="_blank" class="external"><i class="icon-twitter"></i></a></li>
+					<li><a href="#" data-nav-section="program"><span>Program</span></a></li>
+					<li><a href="#" data-nav-section="themes"><span>Themes</span></a></li>
+		            <li><a href="#" data-nav-section="about"><span>About</span></a></li>
+					<li><a href="#" data-nav-section="cfp"><span>Submit CFP</span></a></li>
+					<li><a href="#" data-nav-section="tickets"><span>Tickets </span></a></li>
+					<li><a href="coc.html" class="external"><span>CoC </span></a></li>
+					<li><a class="external" href="https://twitter.com/simplewebconf" target="_blank"><i class="icon-twitter"></i></a></li>
 		          </ul>
-		        </div>
-			    </nav>
-			  <!-- </div> -->
+				</div>
+				<div class="navbar-2nd-logo col-md-2 hidden-xs">
+					<img src="/images/ING_Primary_Logo_Black_RGB.png"/>
+					<p>powered<br> by</p>
+				</div>
+			  </div>
 		  </div>
 	</header>
 

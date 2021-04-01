@@ -9,3 +9,20 @@
 #fh5co-intro {
     padding-bottom: 0px;
 }
+
+
+.navbar-2nd-logo {
+    padding-top: 1em;
+}
+.navbar-2nd-logo p {
+    color: #fff;
+    font-size: .5em;   
+    text-align: right;
+    line-height: 120%;
+    margin-top: 5px;
+}
+.navbar-2nd-logo img {
+    float: right;
+    max-width: 70%;
+    padding-left: 12px;
+}
