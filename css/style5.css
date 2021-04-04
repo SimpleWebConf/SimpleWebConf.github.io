@@ -215,6 +215,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   #fh5co-header .navbar-brand {
     color: white;
+    margin-left: 0;
   }
   #fh5co-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
@@ -1408,8 +1409,6 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-
-/*# sourceMappingURL=style3.css.map */
 
 .navbar {
   min-height: 70px;
