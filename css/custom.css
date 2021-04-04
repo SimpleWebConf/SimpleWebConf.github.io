@@ -10,21 +10,12 @@
     padding-bottom: 0px;
 }
 
-
-.navbar-2nd-logo {
-    padding-top: 1em;
-}
-.navbar-2nd-logo p {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: .5em;   
-    text-align: right;
-    line-height: 120%;
-    margin-top: 5px;
-}
-.navbar-2nd-logo img {
+#navbar-2nd-logo img {
     float: right;
-    max-width: 70%;
-    padding-left: 12px;
+    max-height: 55px;
+    position: absolute;
+    top: 0;
+    left: 100px;
 }
 .navbar-fixed-top .navbar-2nd-logo p {
     color: rgba(0, 0, 0, 0.5);
