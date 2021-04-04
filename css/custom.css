@@ -32,3 +32,11 @@
 .navbar-fixed-top .navbar-2nd-logo img {
     /* filter: invert(100%); */
 }
+
+#coc #fh5co-header {
+    display: none;
+}
+
+#coc #fh5co-header.navbar-fixed-top {
+    display: block;
+}
