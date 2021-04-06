@@ -29,12 +29,33 @@
     top: 0;
     left: 80px;
 }
+@media screen and (max-width: 768px) {
+    #navbar-2nd-logo img {
+        top: -8px
+    }
+    .row.navbar.navbar-default > div.logo-menu-line {
+        height: 70px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1084px) {
+    #fh5co-header .navbar-brand {
+        font-size: 1em;
+    }
+}
 
 .navbar-fixed-top .navbar-brand {
     white-space: nowrap;
     margin-left: -30px;
 }
 
+.js-fh5co-nav-toggle.fh5co-nav-toggle {
+    margin-right: 20px;
+}
+/* @media screen and (max-width: 768px) {
+    .navbar-collapse.collapse ul li {
+        text-align: center;
+    }
+} */
 .navbar-fixed-top .navbar-brand img {
     filter: invert(50%)
 }
