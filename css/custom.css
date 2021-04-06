@@ -10,7 +10,7 @@
     .btn.btn-primary.big-red-button {
         padding: .5em;
         margin: 0 5%;
-        width: 95%;
+        width: 90%;
         font-size: 0.8em;
     }
 }
@@ -51,11 +51,7 @@
 .js-fh5co-nav-toggle.fh5co-nav-toggle {
     margin-right: 20px;
 }
-/* @media screen and (max-width: 768px) {
-    .navbar-collapse.collapse ul li {
-        text-align: center;
-    }
-} */
+
 .navbar-fixed-top .navbar-brand img {
     filter: invert(50%)
 }
