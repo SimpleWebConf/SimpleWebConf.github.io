@@ -10,15 +10,16 @@
     padding-bottom: 0px;
 }
 
+#navbar-2nd-logo a {
+    font-size: 15px !important;
+}
+
 #navbar-2nd-logo img {
     float: right;
     max-height: 55px;
     position: absolute;
     top: 0;
-    left: 100px;
-}
-.navbar-fixed-top .navbar-2nd-logo p {
-    color: rgba(0, 0, 0, 0.5);
+    left: 80px;
 }
 
 .navbar-fixed-top .navbar-brand {
@@ -29,6 +30,7 @@
 .navbar-fixed-top .navbar-brand img {
     filter: invert(50%)
 }
+
 .navbar-fixed-top .navbar-2nd-logo img {
     /* filter: invert(100%); */
 }
