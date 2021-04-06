@@ -67,3 +67,11 @@
 #coc #fh5co-header.navbar-fixed-top {
     display: block;
 }
+
+body {
+    margin: 0px !important;
+}
+html {
+    overflow-x: hidden !important;
+    overscroll-behavior-x: revert;
+}
