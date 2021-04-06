@@ -6,6 +6,14 @@
     padding: 1em 2em;
     font-size: 1.2em;
 }
+@media screen and (max-width: 768px) {
+    .btn.btn-primary.big-red-button {
+        padding: .5em;
+        margin: 0 5%;
+        width: 95%;
+        font-size: 0.8em;
+    }
+}
 #fh5co-intro {
     padding-bottom: 0px;
 }
