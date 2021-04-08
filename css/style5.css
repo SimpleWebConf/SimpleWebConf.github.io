@@ -24,13 +24,13 @@ body {
 }
 
 a {
-  color: #fab4b7;
+  color: #f44336;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #fab4b7;
+  color: #f44336;
   outline: none;
 }
 
@@ -246,7 +246,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header #navbar li a {
   font-family: "Source Sans Pro", Arial, sans-serif;
-  color: rgba(255, 255, 255, 0.5);
+  color: #fff;
   position: relative;
   font-size: 19px;
   font-weight: 300;
@@ -263,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color:  #fff;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
 }
 #fh5co-header.navbar-fixed-top .navbar-brand {
-  color: #fab4b7;
+  color: #f44336;
 }
 #fh5co-header.navbar-fixed-top #navbar li a {
   color: rgba(0, 0, 0, 0.5);
@@ -326,18 +326,18 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #fh5co-header.navbar-fixed-top #navbar li a:hover {
-  color: #fab4b7;
+  color: #f44336;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a {
   background: transparent;
   background: none;
-  color: #fab4b7;
+  color: #f44336;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  background-color: #fab4b7;
+  background-color: #f44336;
 }
 #fh5co-header .navbar-default {
   border: transparent;
@@ -415,7 +415,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-home .text-inner a {
   color: white;
-  border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+  border-bottom: 1px dashed #fff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -780,7 +780,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 #fh5co-counters .fh5co-counter .fh5co-counter-label {
-  color: rgba(255, 255, 255, 0.5);
+  color: #fff;
   font-size: 18px;
   font-weight: 400;
 }
@@ -790,7 +790,7 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
 }
 #fh5co-testimonials .box-testimony a {
-  color: rgba(255, 255, 255, 0.5);
+  color: #fff;
 }
 #fh5co-testimonials .box-testimony a:hover, #fh5co-testimonials .box-testimony a:focus, #fh5co-testimonials .box-testimony a:active {
   color: white;
@@ -875,7 +875,7 @@ h1, h2, h3, h4, h5, h6 {
   background-image: -ms-repeating-linear-gradient(top left, #c52a28 0%, #fab4b7 100%);
 }
 #fh5co-work a {
-  color: rgba(255, 255, 255, 0.5);
+  color: #fff;
   text-decoration: underline;
 }
 #fh5co-work a:hover {
@@ -1320,7 +1320,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 .social.social-circle a {
-  background: #fab4b7;
+  background: #f44336;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
