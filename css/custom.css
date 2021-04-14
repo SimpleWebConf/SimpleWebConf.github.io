@@ -75,3 +75,8 @@ html {
     overflow-x: hidden !important;
     overscroll-behavior-x: revert;
 }
+
+#fh5co-services .section-heading {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
