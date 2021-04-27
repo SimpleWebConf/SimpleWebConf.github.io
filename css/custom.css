@@ -6,6 +6,7 @@
     padding: 1em 2em;
     font-size: 1.2em;
 }
+
 @media screen and (max-width: 768px) {
     .btn.btn-primary.big-red-button {
         padding: .5em;
@@ -87,4 +88,8 @@ html {
 
 #fh5co-services .box-testimony .author > figure img[alt~="conference"] {
   border-radius: 0;
+}
+
+.top-actions {
+  margin-top: 10px;
 }
