@@ -15,7 +15,8 @@
 }
 
 @media screen and (max-width: 768px) {
-    .btn.btn-primary.big-red-button {
+    .btn.btn-primary.big-red-button, 
+    .btn.btn-primary.big-blue-button {
         padding: .5em;
         margin: 0 5%;
         width: 90%;
