@@ -105,3 +105,12 @@ html {
 #fh5co-home h3 {
     color: #fff;
 }
+#sessionize .sz-session__card, 
+#sessionize .sz-cssgrid .sz-session--plenum .sz-session__card,
+#sessionize .sz-cssgrid .sz-session--plenum .sz-session__card .sz-session__speakers {
+    text-align: left !important;
+}
+
+#sessionize .sz-session__card h3 {
+    color: #fff;
+}
