@@ -22,6 +22,12 @@
         width: 90%;
         font-size: 0.8em;
     }
+    .btn.btn-primary.big-red-button {
+        margin-bottom: 1em !important;
+    }
+    #fh5co-home .text-inner h1 {
+        font-size:2em;
+    }
 }
 #fh5co-intro {
     padding-bottom: 0px;
