@@ -73,7 +73,6 @@
 						<li><a href="#" data-nav-section="themes"><span>Themes</span></a></li>
 						<li><a href="#" data-nav-section="program"><span>Program</span></a></li>
 						<li><a href="agenda.html" class="external"><span>Schedule</span></a></li>
-						<li><a href="speakers.html" class="external"><span>Speakers</span></a></li>
 						<li><a href="#" data-nav-section="tickets"><span>Tickets </span></a></li>
 						<li><a href="coc.html" class="external"><span>CoC </span></a></li>
 						<li><a class="external" href="https://twitter.com/simplewebconf" target="_blank"><i
@@ -167,88 +166,24 @@
 				</div>
 			</div>
 			<div class="row">
-
-				<div class="col-md-4">
-					<div class="box-testimony">
-						<blockquote class="to-animate-2">
-							<h3>Web Components in Action</h3>
-							<span class="label label-info">workshop</span>
-							<a href="https://www.eventbrite.com/e/simplewebconf-2021-tickets-144376406719" class="btn label label-danger">Reserve a spot</a>
-						</blockquote>
-
-						<div class="row">
-							<div class="col-md-12">
-								<div class="author to-animate">
-									<figure><img
-											src="https://sessionize.com/image/f1a2-200o200o2-39-6985-4530-89ee-b9ba23eb4869.ca656891-0ea4-439d-a37a-0c6467777346.jpg">
-									</figure>
-									<span>
-										Alex Korzhikov, ING, Full-stack developer
-									</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4">
-					<div class="box-testimony">
-						<blockquote class="to-animate-2">
-							<h3>Build your own PWA with Lit, Spring Boot, and Vaadin Fusion</h3>
-							<span class="label label-info">workshop</span>
-							<a href="https://www.eventbrite.com/e/simplewebconf-2021-tickets-144376406719" class="btn label label-danger">Reserve a spot</a>
-						</blockquote>
-
-						<div class="row">
-							<div class="col-md-12">
-								<div class="author to-animate">
-									<figure><img
-											src="https://sessionize.com/image/104e-200o200o2-E7twyX8GJxCgquhK2eG7jt.JPG">
-									</figure>
-									<span>
-										Jean-Christophe Gueriaud, Vaadin, Consultant
-									</span>
-								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="author to-animate">
-									<figure><img
-											src="https://sessionize.com/image/c74d-200o200o2-MZpNqcA118Tr26XUc7hpnX.jpg"
-											alt="Thomas	Allmer image"></figure>
-									<span>
-										Marcus Hellberg,
-										Head of Community at Vaadin
-									</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4">
-					<div class="box-testimony">
-						<blockquote class="to-animate-2">
-							<h3>Build, deploy and audit a serverless PWA with Azure Static Web Apps</h3>
-							<span class="label label-info">workshop</span>
-							<a href="https://www.eventbrite.com/e/simplewebconf-2021-tickets-144376406719" class="btn label label-danger">Reserve a spot</a>
-						</blockquote>
-						<div class="author to-animate">
-							<figure><img src="https://sessionize.com/image/f88c-200o200o2-9HjmEt23e81h5Q2FxXZbJC.png" alt="Yohan Lasorsa"></figure>
-							<span>
-								Yohan Lasorsa
-									Fullstack engineer & cloud advocate @ Microsoft
-							</span>
-						</div>
-					</div>
+				<div class="col-md-12">
+					<script type="text/javascript" src="https://sessionize.com/api/v2/rg3c88d8/view/Sessions"></script>
 				</div>
 			</div>
-			<div class="row">
-					<div class="col-md-offset-4 col-md-4 col-sm-6 text-center to-animate">
-						<a href="program.html"
-							class="btn btn-primary btn-large big-red-button">See complete program</a>
+			<div class="row" style="margin-top: 30px">
+				<div class="col-md-12">
+					<div class="sessionize-loader" data-sessionize-load-url="https://sessionize.com/api/v2/qh9n590f/view/SpeakerWall?under=True">
+							<div class="sz-spinner"></div>
 					</div>
-			</div> 
-
+					<script>
+						const firstElement = document.querySelector('[data-sessionize-load-url]');
+						firstElement.removeAttribute = function() {
+							HTMLElement.prototype.removeAttribute.apply(firstElement, arguments);
+							setTimeout(()=> sessionize.loader());
+						}
+					</script>
+				</div>
+			</div>
 		</div>
 	</section>
 
