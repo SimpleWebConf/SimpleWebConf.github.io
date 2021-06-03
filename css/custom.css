@@ -120,3 +120,7 @@ html {
 #sessionize .sz-session__card h3 {
     color: #fff;
 }
+
+#fh5co-services #sessionize ul.sz-session__speakers a {
+    color: white !important;
+}
