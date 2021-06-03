@@ -70,7 +70,6 @@
 				<div id="navbar" class="navbar-collapse collapse col-md-6 col-xs-12">
 					<ul class="nav navbar-nav navbar-right" style="padding-top: .5em;">
 
-						<li><a href="#" data-nav-section="themes"><span>Themes</span></a></li>
 						<li><a href="#" data-nav-section="program"><span>Program</span></a></li>
 						<li><a href="agenda.html" class="external"><span>Schedule</span></a></li>
 						<li><a href="#" data-nav-section="tickets"><span>Tickets </span></a></li>
@@ -158,38 +157,46 @@
 		</div>
 	</section>
 
-	<section id="fh5co-services" data-section="program">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">Program</h2>
-				</div>
+	<section id="fh5co-services" data-section="speakers">
+		<div class="row">
+			<div class="section-heading text-center">
+				<h2 class="to-animate">Speakers</h2>
 			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<script type="text/javascript" src="https://sessionize.com/api/v2/rg3c88d8/view/Sessions"></script>
+		</div>
+
+		<div class="row" style="margin-top: 30px">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="sessionize-loader" data-sessionize-load-url="https://sessionize.com/api/v2/qh9n590f/view/SpeakerWall?under=True">
+						<div class="sz-spinner"></div>
 				</div>
-			</div>
-			<div class="row" style="margin-top: 30px">
-				<div class="col-md-12">
-					<div class="sessionize-loader" data-sessionize-load-url="https://sessionize.com/api/v2/qh9n590f/view/SpeakerWall?under=True">
-							<div class="sz-spinner"></div>
-					</div>
-					<script>
-						const firstElement = document.querySelector('[data-sessionize-load-url]');
-						firstElement.removeAttribute = function() {
-							HTMLElement.prototype.removeAttribute.apply(firstElement, arguments);
-							setTimeout(()=> sessionize.loader());
-						}
-					</script>
-				</div>
+				<script>
+					const firstElement = document.querySelector('[data-sessionize-load-url]');
+					firstElement.removeAttribute = function() {
+						HTMLElement.prototype.removeAttribute.apply(firstElement, arguments);
+						setTimeout(()=> sessionize.loader());
+					}
+				</script>
 			</div>
 		</div>
 	</section>
 
-	<section id="fh5co-about">
+	
+	<section id="fh5co-about" data-section="program">
 		<div class="container">
-			<div class="row">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 section-heading text-center">
+						<h2 class="to-animate">Program</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<script type="text/javascript" src="https://sessionize.com/api/v2/rg3c88d8/view/Sessions"></script>
+					</div>
+				</div>
+			</div>
+
+			<div class="row" style="margin-top: 30px">
 				<div class="col-md-12 section-heading text-center">
 					<h2 class="to-animate">Meet the team</h2>
 				</div>
