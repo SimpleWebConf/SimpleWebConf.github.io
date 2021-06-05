@@ -1,49 +1,71 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>SimpleWebConf 2021 - Make Web Development Simple</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="SimpleWebConf website" />
-	<meta name="keywords" content="snowpack, lit-html, html imports, conference celebrating web development made simple, from side project to enterprise!" />
+	<meta name="keywords"
+		content="snowpack, lit-html, html imports, conference celebrating web development made simple, from side project to enterprise!" />
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content="SimpleWebConf 2021"/>
-	<meta property="og:image" content="http://simplewebconf.com/images/simplewebconf-event-preview.png"/>
-	<meta property="og:url" content="http://simplewebconf.com/"/>
-	<meta property="og:site_name" content="SimpleWebConf 2021"/>
-	<meta property="og:description" content="A conference celebrating web development made simple, from side project to enterprise!"/>
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="SimpleWebConf 2021" />
+	<meta property="og:image" content="http://simplewebconf.com/images/simplewebconf-event-preview.png" />
+	<meta property="og:url" content="http://simplewebconf.com/" />
+	<meta property="og:site_name" content="SimpleWebConf 2021" />
+	<meta property="og:description"
+		content="A conference celebrating web development made simple, from side project to enterprise!" />
 	<meta name="twitter:title" content="SimpleWebConf 2021" />
 	<meta name="twitter:image" content="http://simplewebconf.com/images/simplewebconf-event-preview.png" />
 	<meta name="twitter:url" content="http://simplewebconf.com/" />
-	<meta name="twitter:card" content="A conference celebrating web development made simple, from side project to enterprise!" />
+	<meta name="twitter:card"
+		content="A conference celebrating web development made simple, from side project to enterprise!" />
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="favicon.ico">
 
-	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Simple Line Icons -->
-	<link rel="stylesheet" href="css/simple-line-icons.css">
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet'
+		type='text/css'>
 
-	<link rel="stylesheet" href="css/style5.css">
-	<!-- custom  -->
-	<link rel="stylesheet" href="css/custom.css">
-	
+
+
+
+	<link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+	<style>
+		:root {
+			font-size: 16px;
+		}
+
+		body {
+			font-family: "Helvetica Neue", HelveticaNeue, "TeX Gyre Heros", TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
+
+		}
+
+		.hero {
+			border: 1px solid black;
+			border-radius: 5px;
+			padding: 45px;
+		}
+
+		.min-w-16 {
+			min-width: 16rem;
+		}
+
+		/* When you move the mouse over the subnav container, open the subnav content */
+		/* .subnav:hover .subnav-content {
+				display: block;
+			} */
+	</style>
+
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -53,47 +75,94 @@
 
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-V5CKWQW54T"></script>
 	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-	gtag('config', 'G-V5CKWQW54T');
+		gtag('config', 'G-V5CKWQW54T');
 	</script>
 
-	</head>
-	<body>
-		<header role="banner" id="fh5co-header">
-			<div class="container">
-				<div class="row navbar navbar-default">
-		        <div class="col-md-3 col-xs-12">
-		        	<!-- Mobile Toggle Menu Button -->
-					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		         <a class="navbar-brand" href="index.html"><img src="images/logo-white.png" alt="Image">SimpleWebConf</a> 
-		        </div>
-		        <div id="navbar" class="navbar-collapse collapse col-md-6 col-xs-12">
-				  <ul class="nav navbar-nav navbar-right" 
-				  		style="padding-top: .5em;">
+</head>
 
-					<li><a href="index.html#program"  class="external" data-nav-section="program"><span>Program</span></a></li>
-					
-		            <li><a href="agenda.html" class="external"><span>Schedule</span></a></li>
+<body
+	class="container relative min-h-screen max-h-screen m-auto my-0 max-w-full bg-white overflow-x-hidden p-4  md:p-8">
+	<header role="banner" id="fh5co-header" class="w-full relative mb-44">
+		<nav class="relative w-full flex flex-row flex-nowrap justify-start">
+			<a href="agenda.html" data-nav-section="program" class="block  mr-6 font-bold text-gray-400">Schedule</a>
+			<a href="agenda.html" class="block  mr-6 font-bold text-gray-400">Speakers</a>
+			<a href="#" data-nav-section="tickets" class="block  mr-6 font-bold text-gray-400">Tickets </a>
+			<a href="coc.html" class="block  mr-6 font-bold text-gray-400">CoC</a>
+			<a href="https://www.ing.com/" target="_blank"
+				class="block order-last place-self-end  self-end justify-self-end font-bold text-gray-400">
 
-					<li><a href="index.html#tickets" class="external"  data-nav-section="tickets"><span>Tickets </span></a></li>
-					<li><a href="coc.html" class="external"><span>CoC </span></a></li>
-					<li><a class="external" href="https://twitter.com/simplewebconf" target="_blank"><i class="icon-twitter"></i></a></li>
-					<li id="navbar-2nd-logo">
-						<a href="https://www.ing.com/" target="_blank">
-							<img src="/images/ING_Primary_Logo_RGB.png"/>
-							powered by
-						</a>
-					</li>
-		          </ul>
-				</div>
-			  </div>
-		  </div>
+				<!-- powered by
+				<img class="w-2 h-2" src="/images/ING_Primary_Logo_RGB.png" /> -->
+			</a>
+		</nav>
+		<!-- <div class="container">
+			<div class="row navbar navbar-default">
+				<div class="col-md-3 col-xs-12 logo-menu-line">
+			
+	<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar"
+		aria-expanded="false" aria-controls="navbar"><i></i></a>
+	<a class="navbar-brand" href="index.html"><img src="images/logo-white.png"
+			alt="the simplewebconf logo">SimpleWebConf</a>
+	</div>
+	<div id="navbar" class="navbar-collapse collapse col-md-6 col-xs-12">
+		<ul class="nav navbar-nav navbar-right" style="padding-top: .5em;">
+
+			<li><a href="#" data-nav-section="program"><span>Program</span></a></li>
+			<li><a href="agenda.html" class="external"><span>Schedule</span></a></li>
+			<li><a href="#" data-nav-section="tickets"><span>Tickets </span></a></li>
+			<li><a href="coc.html" class="external"><span>CoC </span></a></li>
+			<li><a class="external" href="https://twitter.com/simplewebconf" target="_blank"><i
+						class="icon-twitter"></i></a></li>
+			<li id="navbar-2nd-logo">
+				<a href="https://www.ing.com/" target="_blank">
+					<img src="/images/ING_Primary_Logo_RGB.png" />
+					powered by
+				</a>
+			</li>
+		</ul>
+	</div>
+	</div> -->
 	</header>
+	<!-- <header role="banner" id="fh5co-header">
+		<div class="container">
+			<div class="row navbar navbar-default">
+				<div class="col-md-3 col-xs-12">
+					
+					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse"
+						data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+					<a class="navbar-brand" href="index.html"><img src="images/logo-white.png"
+							alt="Image">SimpleWebConf</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse col-md-6 col-xs-12">
+					<ul class="nav navbar-nav navbar-right" style="padding-top: .5em;">
 
+						<li><a href="index.html#program" class="external"
+								data-nav-section="program"><span>Program</span></a></li>
 
+						<li><a href="agenda.html" class="external"><span>Schedule</span></a></li>
+
+						<li><a href="index.html#tickets" class="external" data-nav-section="tickets"><span>Tickets
+								</span></a></li>
+						<li><a href="coc.html" class="external"><span>CoC </span></a></li>
+						<li><a class="external" href="https://twitter.com/simplewebconf" target="_blank"><i
+									class="icon-twitter"></i></a></li>
+						<li id="navbar-2nd-logo">
+							<a href="https://www.ing.com/" target="_blank">
+								<img src="/images/ING_Primary_Logo_RGB.png" />
+								powered by
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header> -->
+
+	<!-- 
 	<section id="fh5co-home" data-section="home" style="background-image: url(images/full_image_2.jpg);height: 200px"
 		data-stellar-background-ratio="0.5">
 		<div class="gradient"></div>
@@ -109,18 +178,38 @@
 			</div>
 		</div>
 		<div class="slant"></div>
-	</section>
+	</section> -->
 
 
-	
+
 	<section id="fh5co-about">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
-					<h2 >Event Schedule</h2>
+					<h2>Event Schedule</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext">
-							<script type="text/javascript" src="https://sessionize.com/api/v2/qh9n590f/view/GridSmart"></script>
+							<div id="schedule" class="relative w-full flex flex-row overflow-x-scroll"></div>
+							<script>
+								var schedule = document.getElementById('schedule');
+								fetch("https://sessionize.com/api/v2/sjb3seek/view/All")
+									.then(resp => resp.json())
+									.then(data => {
+										console.log(data.sessions);
+										data.sessions.map(s => {
+
+											var div = document.createElement('DIV');
+
+											var text = document.createTextNode(s.title);
+
+											schedule.appendChild(div);
+											div.appendChild(text);
+											div.classList.add("relative", "block", "rounded", "border", "border-black", "p-8", "min-w-16");
+
+										})
+									});
+							</script>
+
 						</div>
 					</div>
 				</div>
@@ -129,10 +218,10 @@
 	</section>
 
 
-	
 
 
-	<footer id="footer" role="contentinfo">
+
+	<!-- <footer id="footer" role="contentinfo">
 		<div class="container">
 			<div class="">
 				<div class="col-md-12 text-center small-footer-text">
@@ -141,9 +230,9 @@
 				</div>
 			</div>
 		</div>
-	</footer>
-	
-	
+	</footer> -->
+
+
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -163,6 +252,6 @@
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
 
-	</body>
-</html>
+</body>
 
+</html>
