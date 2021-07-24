@@ -124,3 +124,9 @@ html {
 #fh5co-services #sessionize ul.sz-session__speakers a {
     color: white !important;
 }
+a.download {
+    background:#f44336;
+    color: #fff;
+    padding: 5px;
+    display: inline-block;
+}
